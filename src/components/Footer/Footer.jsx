@@ -44,6 +44,7 @@ const Footer = () => {
             <div className="footer_right_side">
               <ul>
                 <li>Gift Cards</li>
+                <li>Gift Cards</li>
                 <li>Terms of Use</li>
                 <li>Contact Us</li>
               </ul>
