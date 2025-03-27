@@ -1,5 +1,4 @@
-const API_KEY = Process.env.REACT_APP_API_KEY; // This is the API key that we will use to make requests to the API
-// We use the process.env object to access the environment variables in our React application
+const API_KEY = import.meta.env.VITE_API_KEY; // This is the API key that we will use to make requests to the API
 
 const requests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`, // This is a request to get all the trending movies and TV shows of the week
