@@ -46,3 +46,9 @@
   list-style: none;
   cursor: pointer;
 }
+
+@media (max-width: 790px) {
+  .header_links {
+    display: none;
+  }
+}
